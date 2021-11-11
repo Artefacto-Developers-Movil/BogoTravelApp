@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bogotravel</string>
+    <string name="USAQUÉN">USAQUÉN</string>
+    <string name="descripcion">Fue escenario de amplias haciendas, hoy convertidas en urbanizaciones y centros comerciales. Usaquén está ubicada al norte de Bogotá y es un popular paraje para descubrir la ciudad. Modernos bistrós, acogedoras cafeterías, coctelerías y cervecerías se agrupan allí. Los domingos, podrás visitar el mercado de pulgas de Usaquén, disfruta de música al aire libre, espectáculos de marionetas, puestos de comida gourmet y artículos como joyas, artesanías y varias muestras de café local.</string>
+    <string name="planes">PLANES</string>
+    <string name="temperatura">Temperatura: 18ºC</string>
+    <string name="foto">foto</string>
+</resources>
