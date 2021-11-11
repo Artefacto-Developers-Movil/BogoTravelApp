@@ -5,4 +5,8 @@
     <string name="planes">PLANES</string>
     <string name="temperatura">Temperatura: 18ºC</string>
     <string name="foto">foto</string>
+    <string name="jardinbotanico">JARDÍN BOTÁNICO</string>
+    <string name="fotojardin">Foto jardin</string>
+    <string name="jard_n_bot_nico">JARDÍN BOTÁNICO</string>
+    <string name="descjardin"> Nombrado oficialmente Jardín Botánico José Celestino Mutis en honor al astrónomo y botánico José Celestino Mutis de origen español, es un parque urbano con entidad jurídica destinado al estudio, conservación y divulgación de la diversidad de las especies vegetales en Bogotá, capital de Colombia. Fundado en 1955 por el sacerdote Enrique Pérez Arbeláez. Es una entidad pública con funciones en la arborización de la ciudad, que busca garantizar la cobertura vegetal en Bogotá.</string>
 </resources>
