@@ -13,7 +13,8 @@
         android:layout_marginBottom="420dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/monserrate" />
+        app:srcCompat="@drawable/monserrate"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/textView6"
@@ -46,8 +47,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="@string/PlanesMonserrate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView8"
@@ -55,6 +60,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="@string/AltitudMonserrate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
-        tools:layout_editor_absoluteX="227dp" />
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
