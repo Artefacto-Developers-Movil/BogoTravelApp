@@ -5,4 +5,8 @@
     <string name="planes">PLANES</string>
     <string name="temperatura">Temperatura: 18ºC</string>
     <string name="foto">foto</string>
+    <string name="Monserrate">MONSERRATE</string>
+    <string name="DescripciónMonserrate">"El cerro de Monserrate es el más conocido de los cerros Orientales de Bogotá. Si llegas en avión a Bogotá , vas a ver los cerros al oriente encumbrados por un templo que se destaca por su blancura. Ese es Monserrate, el cerro que se ha convertido en el lugar imperdible y punto de referencia de la ciudad.  Allí llegan a diario cientos de personas deseosas de conocer uno de los lugares de peregrinación de Bogotá, a tener una de las mejores panorámicas de la ciudad y a disfrutar de la naturaleza de este lugar  donde aún se conservan algunos bosques de páramo. "</string>
+    <string name="PlanesMonserrate">Planes</string>
+    <string name="AltitudMonserrate">Altitud : 3152 metros</string>
 </resources>
