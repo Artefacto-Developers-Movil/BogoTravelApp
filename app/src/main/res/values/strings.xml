@@ -5,4 +5,11 @@
     <string name="planes">PLANES</string>
     <string name="temperatura">Temperatura: 18ºC</string>
     <string name="foto">foto</string>
+
+    <string name="foto_planetario">foto</string>
+    <string name="title_planetario">PLANETARIO DE BOGOTÁ</string>
+    <string name="descripción_planetario">El planetario de Bogotá está ubicado en la calle 26B #5-93, Bogotá, Cundinamarca. Se inauguró el lunes 22 de diciembre de 1969 con la presencia del presidente de la República, Carlos Lleras Restrepo, el alcalde mayor de Bogotá, Emilio Urrea Delgado y personalidades de los sectores de la cultura y la ciencia, así como representantes diplomáticos. Sin embargo, la idea de construir en Bogotá un gran centro cultural con un planetario fue del alcalde de Bogotá Virgilio Barco Vargas en 1966. Un lugar mágico que hace del conocimiento una realidad palpable a los sentidos y la imaginación. Sin duda, debes visitarlo.</string>
+    <string name="PLANES">PLANES</string>
+    <string name="temperatura_pl"> Temperatura 15°c</string>
+
 </resources>
