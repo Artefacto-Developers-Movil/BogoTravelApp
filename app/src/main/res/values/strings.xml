@@ -5,4 +5,9 @@
     <string name="planes">PLANES</string>
     <string name="temperatura">Temperatura: 18ºC</string>
     <string name="foto">foto</string>
+    <string name="nombre_poi">nombre_poi</string>
+    <string name="descripcorta">Usaquén está ubicada al norte de Bogotá y es un popular paraje para descubrir la ciudad.</string>
+    <string name="valoracion">*****</string>
 </resources>
+
+
