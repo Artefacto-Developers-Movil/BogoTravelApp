@@ -1,0 +1,40 @@
+[
+    {
+        "name" : "Usaquén",
+        "descripcorta" : "Usaquén está ubicada al norte de Bogotá y es un popular paraje para descubrir la ciudad.",
+        "valoracion" : "* * * * *",
+        "urlPicture" : "https://www.alphalyracapital.com/recycler/usaquenrec.jpg"
+    },
+    {
+        "name" : "Parque Simón Bolivar",
+        "descripcorta" : "Se le considera el “pulmón de la ciudad”, por su estratégica ubicación en el corazón de Bogotá.",
+        "valoracion" : "* * *",
+        "urlPicture" : "https://www.alphalyracapital.com/recycler/simonbolr.jpg"
+    },
+        {
+        "name" : "Monserrate",
+         "descripcorta" : "Monserrate, el cerro que se ha convertido en el lugar imperdible y punto de referencia de la ciudad.",
+         "valoracion" : "* * * * *",
+         "urlPicture" : "https://www.alphalyracapital.com/recycler/monserrater.jpg"
+    },
+        {
+         "name" : "Planetario",
+         "descripcorta" : "Un lugar mágico que hace del conocimiento una realidad palpable a los sentidos y la imaginación.",
+         "valoracion" : "* * * * *",
+         "urlPicture" : "https://www.alphalyracapital.com/recycler/planetarior.jpg"
+    },
+        {
+        "name" : "Biblioteca Virgilio Barco",
+        "descripcorta" : "La biblioteca Virgilio Barco es un lugar especial para los que les gusta apreciar el arte de la arquitectura.",
+         "valoracion" : "* * * *",
+        "urlPicture" :"https://www.alphalyracapital.com/recycler/bibliotecar.jpg"
+    },
+        {
+        "name" : "Jardín Botánico",
+        "descripcorta" : "20 hectáreas enriquecidas con colecciones de plantas vivas científicamente organizadas.",
+        "valoracion" : "* * * * *",
+        "urlPicture" : "https://www.alphalyracapital.com/recycler/jardinbor.jpg"
+
+    }
+]
+
