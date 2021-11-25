@@ -12,6 +12,8 @@
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.22282608695652173" />
         <entry key="app/src/main/res/layout/card_view_poi_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/monserrate.xml" value="0.234375" />
+        <entry key="bogotravel/src/main/res/layout/activity_main.xml" value="0.20425724637681159" />
+        <entry key="bogotravel/src/main/res/layout/fragment_detail.xml" value="0.19972826086956522" />
       </map>
     </option>
   </component>

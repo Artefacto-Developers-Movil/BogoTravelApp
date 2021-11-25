@@ -1,5 +1,6 @@
 package com.bogotravel.bogotravelapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -20,7 +21,7 @@ class ListPoiActivity : AppCompatActivity() {
 
     //    listPoi = createMockPoi()
         listPoi = loadMockPoiFromJson()
-        poiAdapter = PoiAdapter(listPoi)
+        poiAdapter = PoiAdapter(listPoi, onItemClicked = { onPoiClicked(it)} )
 
         poiRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
@@ -28,8 +29,16 @@ class ListPoiActivity : AppCompatActivity() {
             setHasFixedSize(false)
         }
     }
+
+    private fun onPoiClicked(poi: PoiItem) {
+        val intent = Intent(this, MainActivity::class.java)
+        intent.putExtra("poi", poi)
+        startActivity(intent)
+
+    }
+
     private fun loadMockPoiFromJson(): ArrayList<PoiItem> {
-        var poiString: String = applicationContext.assets.open("poi.json").bufferedReader().use { it.readText() }
+        val poiString: String = applicationContext.assets.open("poi.json").bufferedReader().use { it.readText() }
         val gson = Gson()
         val poiList = gson.fromJson(poiString, Poi::class.java)
         return poiList

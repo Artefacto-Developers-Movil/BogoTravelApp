@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "BogoTravelApp"
 include ':app'
+include ':bogotravel'

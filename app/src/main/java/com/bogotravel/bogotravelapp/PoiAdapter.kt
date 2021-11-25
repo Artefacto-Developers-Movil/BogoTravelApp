@@ -10,7 +10,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 
 class PoiAdapter (
-    private val poiList: ArrayList<PoiItem>
+
+    private val poiList: ArrayList<PoiItem>,
+    private val onItemClicked: (PoiItem) -> Unit
 ) : RecyclerView.Adapter<PoiAdapter.PoiViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PoiViewHolder {
@@ -20,6 +22,7 @@ class PoiAdapter (
 
     override fun onBindViewHolder(holder: PoiViewHolder, position: Int) {
         val poi = poiList[position]
+        holder.itemView.setOnClickListener { onItemClicked(poiList[position])}
         holder.bind(poi)
     }
 
@@ -37,7 +40,7 @@ class PoiAdapter (
             namePoiView.text = poi.name
             descripcortaView.text = poi.descripcorta
             valoracionView.text = poi.valoracion
-            Picasso.get().load(poi.urlPicture).into(pictureImageView);
+            Picasso.get().load(poi.urlPicture).into(pictureImageView)
             //picture
         }
     }
