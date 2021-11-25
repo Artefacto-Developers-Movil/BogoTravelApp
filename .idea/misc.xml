@@ -12,8 +12,19 @@
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.22282608695652173" />
         <entry key="app/src/main/res/layout/card_view_poi_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/monserrate.xml" value="0.234375" />
+        <entry key="bogotravel/src/main/res/drawable/ic_iconoapp.xml" value="0.17314814814814813" />
+        <entry key="bogotravel/src/main/res/layout/activity_bottom.xml" value="0.19739583333333333" />
         <entry key="bogotravel/src/main/res/layout/activity_main.xml" value="0.20425724637681159" />
+        <entry key="bogotravel/src/main/res/layout/card_view_poi_item.xml" value="0.335" />
+        <entry key="bogotravel/src/main/res/layout/fragment_dashboard.xml" value="0.19739583333333333" />
         <entry key="bogotravel/src/main/res/layout/fragment_detail.xml" value="0.19972826086956522" />
+        <entry key="bogotravel/src/main/res/layout/fragment_home.xml" value="0.19739583333333333" />
+        <entry key="bogotravel/src/main/res/layout/fragment_list.xml" value="0.18931159420289856" />
+        <entry key="bogotravel/src/main/res/layout/fragment_notifications.xml" value="0.19739583333333333" />
+        <entry key="bogotravel/src/main/res/menu/bottom_nav_menu.xml" value="0.19739583333333333" />
+        <entry key="bogotravel/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20185185185185187" />
+        <entry key="bogotravel/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.20185185185185187" />
+        <entry key="bogotravel/src/main/res/xml/root_preferences.xml" value="0.1" />
       </map>
     </option>
   </component>

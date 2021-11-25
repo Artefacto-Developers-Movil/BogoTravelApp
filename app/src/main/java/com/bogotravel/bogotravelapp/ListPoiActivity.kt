@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 
+
 class ListPoiActivity : AppCompatActivity() {
 
     private lateinit var listPoi: ArrayList<PoiItem>
