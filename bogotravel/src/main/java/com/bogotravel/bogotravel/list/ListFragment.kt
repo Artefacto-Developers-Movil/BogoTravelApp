@@ -30,6 +30,7 @@ class ListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        //(activity as MainActivity?)?.hideIcon()
         poiList = loadMockPoiFromJson()
         poiAdapter = PoiAdapter(poiList, onItemClicked = { onPoiClicked(it) } )
         listBinding.poiRecyclerView.apply {

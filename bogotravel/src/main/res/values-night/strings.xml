@@ -2,4 +2,5 @@
 <resources>
     <string name="notificaciones">notificaciones</string>
     <string name="SitioTurístico">Sitio Turistico</string>
+    <string name="splashapp">splashapp</string>
 </resources>

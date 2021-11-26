@@ -11,8 +11,6 @@ e
 5app/src/main/java/com/bogotravel/bogotravelapp/Poi.kt,9/5/9565d4b9d9aec791ae69f19f7d222293d28c5015
 i
 9app/src/main/java/com/bogotravel/bogotravelapp/PoiItem.kt,8/e/8e2b0a7952d6b8623155dfeddfb922cb6d59bfc9
-w
-Gbogotravel/src/main/java/com/bogotravel/bogotravel/main/MainActivity.kt,c/a/ca64f770637b71105427529fcd47b08c62db4358
 n
 >app/src/main/java/com/bogotravel/bogotravelapp/MainActivity.kt,3/1/3151359043b857aac14250315810d244173a1384
 s
@@ -33,21 +31,11 @@ Ubogotravel/src/main/java/com/bogotravel/bogotravel/ui/dashboard/DashboardViewMo
 \bogotravel/src/main/java/com/bogotravel/bogotravel/ui/notifications/NotificationsFragment.kt,9/b/9b04e1faaa9749ee5cdbdd519937f71226cd1cfc
 ç
 ]bogotravel/src/main/java/com/bogotravel/bogotravel/ui/notifications/NotificationsViewModel.kt,2/f/2ffe465559e4a2487ab4d68e997a7ac69f75c78d
-Ç
-Rbogotravel/src/main/java/com/bogotravel/bogotravel/preferences/SettingsFragment.kt,3/f/3fef70c915ded2db1b2509a6b835a32c476c649d
-t
-Dbogotravel/src/main/java/com/bogotravel/bogotravel/ActivityBottom.kt,2/a/2af9e085e9690426a85d8e0dc35f6f14d1fd170e
-w
-Gbogotravel/src/main/java/com/bogotravel/bogotravel/list/ListFragment.kt,0/9/0998d42892daeaf0989c11c08856f9e29cb48ec4
 G
 bogotravel/build.gradle,b/d/bd2cb52a76a4f7b404f192d5879818926d874188
-W
-'bogotravel/src/main/AndroidManifest.xml,6/e/6ebe70dff5e5d9b13fc9695e99d2aa24b057fece
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 @
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 q
 Aapp/src/main/java/com/bogotravel/bogotravelapp/ListPoiActivity.kt,0/e/0e43e0dbd32531ffd6b5846662e4bed7414529c7
-{
-Kbogotravel/src/main/java/com/bogotravel/bogotravel/detail/DetailFragment.kt,6/c/6cd490da9a4658ae7382d23560b39cc025517f24
