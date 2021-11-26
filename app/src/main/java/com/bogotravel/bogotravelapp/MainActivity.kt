@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
 
         val poi: PoiItem = intent.extras?.getSerializable("poi") as PoiItem
         detalleBinding.tituloView.text = poi.name
-
         with(detalleBinding){
             tituloView.text = poi.name
             descripcionView.text = poi.descripcion
