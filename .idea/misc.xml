@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/parque_metropolitano_simon_bolivar.xml" value="0.625" />
+        <entry key="app/src/main/res/drawable/splash_background.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12239583333333333" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.12239583333333333" />
+        <entry key="app/src/main/res/layout/card_view_poi_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/parque_metropolitano_simon_bolivar.xml" value="0.4124629080118694" />
       </map>
     </option>
   </component>
