@@ -6,11 +6,15 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
+import androidx.fragment.app.ListFragment
 import com.bogotravel.bogotravel.R
 import com.bogotravel.bogotravel.preferences.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
@@ -23,13 +27,20 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
-        val fm = supportFragmentManager
-        val ft = fm.beginTransaction()
+        val fm : FragmentManager = supportFragmentManager
+        val ft : FragmentTransaction = fm.beginTransaction()
 
         return when (item.itemId){
+            R.id.navigation_preference -> {
+                val settingsFragment = SettingsFragment()
+                ft.replace(R.id.fragmentContainerView, settingsFragment).commit()
+                ft.addToBackStack(null)
+                true
+            }
+
             R.id.navigation_list -> {
-                val fragmentsSettings = SettingsFragment()
-                ft.replace(R.id.fragmentContainerView, fragmentsSettings).commit()
+                val listFragment = ListFragment()
+                ft.replace(R.id.fragmentContainerView, listFragment).commit()
                 ft.addToBackStack(null)
                 true
             }
@@ -44,12 +55,12 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun showIcon(){
-        val actionBar: ActionBar? = supportActionBar
+        val actionBar : ActionBar? = supportActionBar
         actionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
     fun hideIcon(){
-        val actionBar: ActionBar? = supportActionBar
+        val actionBar : ActionBar? = supportActionBar
         actionBar?.setDisplayHomeAsUpEnabled(false)
     }
 }

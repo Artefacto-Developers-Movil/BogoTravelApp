@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "BogoTravelApp"
 include ':app'
 include ':bogotravel'
+include ':app:splash'

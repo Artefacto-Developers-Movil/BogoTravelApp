@@ -3,8 +3,6 @@
 Papp/src/androidTest/java/com/bogotravel/bogotravelapp/ExampleInstrumentedTest.kt,8/6/86010d0bbc1ebc2814018b931751c4dd84d7aa3f
 q
 Aapp/src/main/java/com/bogotravel/bogotravelapp/activity_splash.kt,7/6/7673e026f029eaa5f03c8857992a44e35bd33bc4
-P
- app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 l
 <app/src/main/java/com/bogotravel/bogotravelapp/PoiAdapter.kt,e/8/e85a04dc1c65f1f85cdadc4c87db1f1e1463eea1
 e
@@ -13,12 +11,8 @@ i
 9app/src/main/java/com/bogotravel/bogotravelapp/PoiItem.kt,8/e/8e2b0a7952d6b8623155dfeddfb922cb6d59bfc9
 n
 >app/src/main/java/com/bogotravel/bogotravelapp/MainActivity.kt,3/1/3151359043b857aac14250315810d244173a1384
-s
-Cbogotravel/src/main/java/com/bogotravel/bogotravel/model/PoiItem.kt,4/3/43349d1b0ffe14e3389e1e796afa0119f1f34123
 o
 ?bogotravel/src/main/java/com/bogotravel/bogotravel/model/Poi.kt,0/5/05d3e54a39f62e34fc0acf0fc2487a847c8b0fa5
-u
-Ebogotravel/src/main/java/com/bogotravel/bogotravel/list/PoiAdapter.kt,7/f/7fe6eecc02212550f9d58c2f2c390d8b462a9853
 z
 Jbogotravel/src/main/java/com/bogotravel/bogotravel/ui/home/HomeFragment.kt,2/c/2c7ec662d0de28f194e9c0a9601410f1cd26603a
 {
@@ -27,15 +21,21 @@ Kbogotravel/src/main/java/com/bogotravel/bogotravel/ui/home/HomeViewModel.kt,a/
 Tbogotravel/src/main/java/com/bogotravel/bogotravel/ui/dashboard/DashboardFragment.kt,1/5/15efd299dc538a883879aa67e84c0756c6b656a4
 Ö
 Ubogotravel/src/main/java/com/bogotravel/bogotravel/ui/dashboard/DashboardViewModel.kt,a/9/a91e087cca220d9bcca30e27fd27d9afe5c5ad70
-å
-\bogotravel/src/main/java/com/bogotravel/bogotravel/ui/notifications/NotificationsFragment.kt,9/b/9b04e1faaa9749ee5cdbdd519937f71226cd1cfc
 ç
 ]bogotravel/src/main/java/com/bogotravel/bogotravel/ui/notifications/NotificationsViewModel.kt,2/f/2ffe465559e4a2487ab4d68e997a7ac69f75c78d
-G
-bogotravel/build.gradle,b/d/bd2cb52a76a4f7b404f192d5879818926d874188
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 @
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 q
 Aapp/src/main/java/com/bogotravel/bogotravelapp/ListPoiActivity.kt,0/e/0e43e0dbd32531ffd6b5846662e4bed7414529c7
+s
+Cbogotravel/src/main/java/com/bogotravel/bogotravel/model/PoiItem.kt,4/3/43349d1b0ffe14e3389e1e796afa0119f1f34123
+G
+bogotravel/build.gradle,b/d/bd2cb52a76a4f7b404f192d5879818926d874188
+Ç
+Rbogotravel/src/main/java/com/bogotravel/bogotravel/preferences/SettingsFragment.kt,3/f/3fef70c915ded2db1b2509a6b835a32c476c649d
+t
+Dbogotravel/src/main/java/com/bogotravel/bogotravel/ActivityBottom.kt,2/a/2af9e085e9690426a85d8e0dc35f6f14d1fd170e
+å
+\bogotravel/src/main/java/com/bogotravel/bogotravel/ui/notifications/NotificationsFragment.kt,9/b/9b04e1faaa9749ee5cdbdd519937f71226cd1cfc
