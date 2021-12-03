@@ -6,7 +6,9 @@
     "valoracion" : "* * * * *",
     "temperatura" : "Temperatura:17ºC",
     "urlPicture" : "https://www.alphalyracapital.com/recycler/usaquenrec.png",
-    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/usaquen.jpg"
+    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/usaquen.jpg",
+    "latitud" : 4.6969611,
+    "longitud" : -74.0323088
   },
   {
     "name" : "Parque Simón Bolivar",
@@ -15,7 +17,9 @@
     "valoracion" : "* * *",
     "temperatura" : "Temperatura:19ºC",
     "urlPicture" : "https://www.alphalyracapital.com/recycler/simonbolr.png",
-    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/simonbol.jpg"
+    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/simonbol.jpg",
+    "latitud" : 4.6969611,
+    "longitud" : -74.0323088
   },
   {
     "name" : "Monserrate",
@@ -24,7 +28,9 @@
     "valoracion" : "* * * * *",
     "temperatura" : "Temperatura:14ºC",
     "urlPicture" : "https://www.alphalyracapital.com/recycler/monserrater.png",
-    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/monserrateok.jpg"
+    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/monserrateok.jpg",
+    "latitud" : 4.6969611,
+    "longitud" : -74.0323088
   },
   {
     "name" : "Planetario",
@@ -33,7 +39,9 @@
     "valoracion" : "* * * * *",
     "temperatura" : "Temperatura:18ºC",
     "urlPicture" : "https://www.alphalyracapital.com/recycler/planetarior.png",
-    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/planetariook.jpg"
+    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/planetariook.jpg",
+    "latitud" : 4.6969611,
+    "longitud" : -74.0323088
   },
   {
     "name" : "Biblioteca Virgilio Barco",
@@ -42,7 +50,9 @@
     "valoracion" : "* * * *",
     "temperatura" : "Temperatura:16ºC",
     "urlPicture" :"https://www.alphalyracapital.com/recycler/bibliotecar.png",
-    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/bibliotecaok.jpg"
+    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/bibliotecaok.jpg",
+    "latitud" : 4.6969611,
+    "longitud" : -74.0323088
   },
   {
     "name" : "Jardín Botánico",
@@ -51,7 +61,9 @@
     "valoracion" : "* * * * *",
     "temperatura" : "Temperatura:19ºC",
     "urlPicture" : "https://www.alphalyracapital.com/recycler/jardinbor.png",
-    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/jardinbook.jpg"
+    "urlPictureBig" : "https://www.alphalyracapital.com/poimages/jardinbook.jpg",
+    "latitud" : 4.6969611,
+    "longitud" : -74.0323088
 
   }
 ]
