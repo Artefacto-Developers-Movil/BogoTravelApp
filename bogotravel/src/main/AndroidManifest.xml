@@ -8,6 +8,7 @@
          location permissions for the "MyLocation" functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -28,7 +29,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyAF-gXkiboLRXgvG0asozsCCPxHD5NWeVs"/>
 
         <activity
             android:name=".ActivitySplash"
@@ -39,13 +40,21 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
         <activity
             android:name=".main.MainActivity"
-            android:exported="true"></activity>
+            android:exported="true">
+
+        </activity>
+
         <activity
             android:name=".ActivityBottom"
-            android:exported="true"></activity>
+            android:exported="true">
+
+        </activity>
+
     </application>
 
 </manifest>

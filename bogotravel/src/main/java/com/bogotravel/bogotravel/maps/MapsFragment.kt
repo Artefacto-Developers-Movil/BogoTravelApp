@@ -14,6 +14,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 
 class MapsFragment : Fragment() {
 
+    //private val args: MapsFragmentArgs by navArgs()
     private val callback = OnMapReadyCallback { googleMap ->
         /**
          * Manipulates the map once available.
@@ -24,9 +25,20 @@ class MapsFragment : Fragment() {
          * install it inside the SupportMapFragment. This method will only be triggered once the
          * user has installed Google Play services and returned to the app.
          */
+
         val usaquen = LatLng(4.6969611, -74.0323088)
         googleMap.addMarker(MarkerOptions().position(usaquen).title("Conoce a Usaquén"))
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(usaquen, 16F))
+
+        /*val poi = args.poi
+        val poi = LatLng(poi.longitud, poi.latitud)
+        googleMap.addMarker(
+            MarkerOptions()
+            .position(poi)
+            .title(poi.name)
+        )
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(poi, 16F))*/
+
     }
 
     override fun onCreateView(

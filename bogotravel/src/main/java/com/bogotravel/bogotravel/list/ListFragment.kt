@@ -31,7 +31,9 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         //(activity as MainActivity?)?.hideIcon()
-        listViewModel.loadMockPoiFromJson(context?.assets?.open("poi.json"))
+     //   listViewModel.loadMockPoiFromJson(context?.assets?.open("poi.json"))
+
+        listViewModel.getPoiFromServer()
 
         listViewModel.onPoiLoaded.observe(viewLifecycleOwner, {result ->
             onPoiLoadedSubscribe(result)

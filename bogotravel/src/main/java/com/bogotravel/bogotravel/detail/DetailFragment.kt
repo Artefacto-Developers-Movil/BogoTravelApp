@@ -15,7 +15,7 @@ class DetailFragment : Fragment() {
 
     private lateinit var detailBinding: FragmentDetailBinding
     private val args: DetailFragmentArgs by navArgs()
-
+    
     /*override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         (activity as MainActivity?)?.showIcon()
@@ -40,16 +40,23 @@ class DetailFragment : Fragment() {
             descripcionView.text = poi.descripcion
             temperaturaView.text = poi.temperatura
             com.squareup.picasso.Picasso.get().load(poi.urlPictureBig).into(imageView2)
-            mapButton.setOnClickListener {
-                val gmmIntentUri = Uri.parse("google.navigation:q="+poi.latitud+","+poi.longitud + "&mode=b")
-                val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
-                mapIntent.setPackage("com.google.android.apps.maps")
-                startActivity(mapIntent)
-            }
 
-            mapButton.setOnClickListener{
-                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment())
+            mapButton.setOnClickListener {
+                findNavController().navigate(
+                        DetailFragmentDirections.actionNavigationDetailToMapsFragment(
+                             //   poi = poi
+                        )
+                )
+
+                mapButton.setOnClickListener {
+                    val gmmIntentUri =
+                        Uri.parse("google.navigation:q=" + poi.latitud + "," + poi.longitud + "&mode=b")
+                    val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+                    mapIntent.setPackage("com.google.android.apps.maps")
+                    startActivity(mapIntent)
+
+                }
+            }
+            }
             }
         }
-    }
-}

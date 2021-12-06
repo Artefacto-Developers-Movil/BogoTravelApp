@@ -20,8 +20,8 @@ data class PoiItem(
     @SerializedName("urlPictureBig")
     val urlPictureBig: String,
     @SerializedName("longitud")
-    val longitud: Int,
+    val longitud: Double,
     @SerializedName("latitud")
-    val latitud: Int
+    val latitud: Double
 
 ) : Serializable
