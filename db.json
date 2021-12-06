@@ -8,8 +8,8 @@
     "temperatura" : "Temperatura:17ºC",
     "urlPicture" : "https://www.alphalyracapital.com/recycler/usaquenrec.png",
     "urlPictureBig" : "https://www.alphalyracapital.com/poimages/usaquen.jpg",
-    "latitud" : 0,
-    "longitud" : 0
+    "latitud" : 4.6969611,
+    "longitud" : -74.0323088
   },
   {
     "name" : "Parque Simón Bolivar",
@@ -19,8 +19,8 @@
     "temperatura" : "Temperatura:19ºC",
     "urlPicture" : "https://www.alphalyracapital.com/recycler/simonbolr.png",
     "urlPictureBig" : "https://www.alphalyracapital.com/poimages/simonbol.jpg",
-    "latitud" : 4.6969625,
-    "longitud" : -34.0323056
+    "latitud" : 4.6303057,
+    "longitud" : -74.1710025
   },
   {
     "name" : "Monserrate",
@@ -30,8 +30,8 @@
     "temperatura" : "Temperatura:14ºC",
     "urlPicture" : "https://www.alphalyracapital.com/recycler/monserrater.png",
     "urlPictureBig" : "https://www.alphalyracapital.com/poimages/monserrateok.jpg",
-    "latitud" : 4.6989911,
-    "longitud" : -94.0313099
+    "latitud" : 4.6056941,
+    "longitud" : -74.0642803
   },
   {
     "name" : "Planetario",
@@ -41,8 +41,8 @@
     "temperatura" : "Temperatura:18ºC",
     "urlPicture" : "https://www.alphalyracapital.com/recycler/planetarior.png",
     "urlPictureBig" : "https://www.alphalyracapital.com/poimages/planetariook.jpg",
-    "latitud" : 4.6968888,
-    "longitud" : -84.0323456
+    "latitud" : 4.6120873,
+    "longitud" : -74.0709737
   },
   {
     "name" : "Biblioteca Virgilio Barco",
@@ -52,8 +52,8 @@
     "temperatura" : "Temperatura:16ºC",
     "urlPicture" :"https://www.alphalyracapital.com/recycler/bibliotecar.png",
     "urlPictureBig" : "https://www.alphalyracapital.com/poimages/bibliotecaok.jpg",
-    "latitud" : 4.6967890,
-    "longitud" : -64.0227012
+    "latitud" : 4.6571297,
+    "longitud" : -74.0907059
   },
   {
     "name" : "Jardín Botánico",
@@ -63,8 +63,8 @@
     "temperatura" : "Temperatura:19ºC",
     "urlPicture" : "https://www.alphalyracapital.com/recycler/jardinbor.png",
     "urlPictureBig" : "https://www.alphalyracapital.com/poimages/jardinbook.jpg",
-    "latitud" : 4.4939633,
-    "longitud" : -54.0325890
+    "latitud" : 4.6680861,
+    "longitud" : -74.1022828
 
      }
     ]
