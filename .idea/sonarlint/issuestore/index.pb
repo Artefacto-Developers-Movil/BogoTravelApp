@@ -67,3 +67,5 @@ o
 ?bogotravel/src/main/java/com/bogotravel/bogotravel/model/Poi.kt,0/5/05d3e54a39f62e34fc0acf0fc2487a847c8b0fa5
 t
 Dbogotravel/src/main/java/com/bogotravel/bogotravel/ActivityBottom.kt,2/a/2af9e085e9690426a85d8e0dc35f6f14d1fd170e
+e
+5bogotravel/src/release/res/values/google_maps_api.xml,0/e/0e73bbd66d81ea9adcd30cd508836a6bf5a48439

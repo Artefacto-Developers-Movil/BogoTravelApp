@@ -10,9 +10,11 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bogotravel.bogotravel.databinding.FragmentDetailBinding
+import com.bogotravel.bogotravel.model.PoiItem
 
 class DetailFragment : Fragment() {
 
+    private lateinit var poi : PoiItem
     private lateinit var detailBinding: FragmentDetailBinding
     private val args: DetailFragmentArgs by navArgs()
     
@@ -33,7 +35,7 @@ class DetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val poi = args.poi
+        poi = args.poi
 
         with(detailBinding) {
             tituloView.text = poi.name
@@ -43,10 +45,7 @@ class DetailFragment : Fragment() {
 
             mapButton.setOnClickListener {
                 findNavController().navigate(
-                        DetailFragmentDirections.actionNavigationDetailToMapsFragment(
-                             //   poi = poi
-                        )
-                )
+                        DetailFragmentDirections.actionNavigationDetailToMapsFragment(poi=poi))
 
                 mapButton.setOnClickListener {
                     val gmmIntentUri =
@@ -59,4 +58,5 @@ class DetailFragment : Fragment() {
             }
             }
             }
-        }
+
+}

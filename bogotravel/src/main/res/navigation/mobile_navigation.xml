@@ -38,5 +38,9 @@
         android:id="@+id/mapsFragment"
         android:name="com.bogotravel.bogotravel.maps.MapsFragment"
         android:label="fragment_maps"
-        tools:layout="@layout/fragment_maps" />
+        tools:layout="@layout/fragment_maps" >
+        <argument
+            android:name="poi"
+            app:argType="com.bogotravel.bogotravel.model.PoiItem" />
+    </fragment>
 </navigation>
