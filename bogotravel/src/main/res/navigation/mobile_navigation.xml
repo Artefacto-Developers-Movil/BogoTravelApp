@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_list">
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.bogotravel.bogotravel.list.ListFragment"
+        android:label="Selecciona el mejor lugar"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_DetailFragment"
+            app:destination="@id/navigation_detail" />
+        <action
+            android:id="@+id/action_listFragment_to_SettingsFragment"
+            app:destination="@id/navigation_preference" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.bogotravel.bogotravel.detail.DetailFragment"
+        android:label="Sitio Turístico"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="poi"
+            app:argType="com.bogotravel.bogotravel.model.PoiItem" />
+        <action
+            android:id="@+id/action_navigation_detail_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_preference"
+        android:name="com.bogotravel.bogotravel.preferences.SettingsFragment"
+        android:label="Preferencias" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.bogotravel.bogotravel.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <argument
+            android:name="poi"
+            app:argType="com.bogotravel.bogotravel.model.PoiItem" />
+    </fragment>
+</navigation>
